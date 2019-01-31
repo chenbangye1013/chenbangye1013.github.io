@@ -160,7 +160,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">记录学习的技能和遇到的问题</p>
+        <p class="site-subtitle">记录学习技能和遇到的问题</p>
       
   </div>
 
@@ -302,7 +302,8 @@
 
       
         
-          <h2 id="linux权限"><a href="#linux权限" class="headerlink" title="linux权限"></a>linux权限</h2><h3 id="利用ls-l命令可以看到某个文件或目录的权限，"><a href="#利用ls-l命令可以看到某个文件或目录的权限，" class="headerlink" title="利用ls-l命令可以看到某个文件或目录的权限，"></a>利用ls-l命令可以看到某个文件或目录的权限，</h3><ul>
+          <h2 id="linux权限"><a href="#linux权限" class="headerlink" title="linux权限"></a>linux权限</h2><ul>
+<li>利用ls-l命令可以看到某个文件或目录的权限，</li>
 <li>＃Is-l test.txt</li>
 <li>-rw-r–r– 1 root root test.txt</li>
 <li>第一位表示文件类型，-表示文件，d表示目录，后面每三位为一组。</li>
@@ -454,7 +455,7 @@
 
       
         
-          <h1 id="centos-7-常用命令"><a href="#centos-7-常用命令" class="headerlink" title="centos 7 常用命令"></a>centos 7 常用命令</h1><h3 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">$ nmtui  设置网卡</span><br><span class="line">$ init 3 切换命令模式</span><br><span class="line">$ init 5 切换图形界面</span><br><span class="line">$ <span class="built_in">pwd</span>    当前所在目录</span><br><span class="line">$ touch  创建文件</span><br><span class="line">$ rm     删除</span><br><span class="line">$ rm 文件 -rf 强制删除</span><br><span class="line">$ mkdir   创建目录</span><br><span class="line">$ cp     拷贝文件（加-r拷贝目录）</span><br><span class="line">$ <span class="built_in">cd</span>     访问</span><br><span class="line">$ mv     从命令或者移动（目标加目录）</span><br><span class="line">$ ls     查看目录（-a查看所以文件包括隐藏文件）</span><br><span class="line">$ ll     查看目录与权限</span><br><span class="line">$ cat    查看文件内容</span><br><span class="line">$ more 分页查看文件</span><br><span class="line">$ vi    编辑文件</span><br><span class="line">$ wget   下载</span><br><span class="line">$ unzip  解压</span><br><span class="line">$ find  /  -naem  <span class="string">"文件.txt"</span>   （<span class="string">"*.txt"</span>查找当前目录下所以*.txt结尾的文件或者目录）</span><br><span class="line">$ <span class="built_in">echo</span>  ok  会打印ok，输入什么就打印什么</span><br><span class="line">$ <span class="built_in">echo</span>  ok &gt; test.txt会吧里面的内容覆盖（&gt;&gt;两个是追加不覆盖里面内容）</span><br></pre></td></tr></table></figure>
+          <h3 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">$ nmtui  设置网卡</span><br><span class="line">$ init 3 切换命令模式</span><br><span class="line">$ init 5 切换图形界面</span><br><span class="line">$ <span class="built_in">pwd</span>    当前所在目录</span><br><span class="line">$ touch  创建文件</span><br><span class="line">$ rm     删除</span><br><span class="line">$ rm 文件 -rf 强制删除</span><br><span class="line">$ mkdir   创建目录</span><br><span class="line">$ cp     拷贝文件（加-r拷贝目录）</span><br><span class="line">$ <span class="built_in">cd</span>     访问</span><br><span class="line">$ mv     从命令或者移动（目标加目录）</span><br><span class="line">$ ls     查看目录（-a查看所以文件包括隐藏文件）</span><br><span class="line">$ ll     查看目录与权限</span><br><span class="line">$ cat    查看文件内容</span><br><span class="line">$ more 分页查看文件</span><br><span class="line">$ vi    编辑文件</span><br><span class="line">$ wget   下载</span><br><span class="line">$ unzip  解压</span><br><span class="line">$ find  /  -naem  <span class="string">"文件.txt"</span>   （<span class="string">"*.txt"</span>查找当前目录下所以*.txt结尾的文件或者目录）</span><br><span class="line">$ <span class="built_in">echo</span>  ok  会打印ok，输入什么就打印什么</span><br><span class="line">$ <span class="built_in">echo</span>  ok &gt; test.txt会吧里面的内容覆盖（&gt;&gt;两个是追加不覆盖里面内容）</span><br></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2019/01/15/centOS常用命令/#more" rel="contents">
